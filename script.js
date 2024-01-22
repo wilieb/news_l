@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             setTimeout(() => {
                 window.location.href = "success.html"
             }, 500);
-        } 
+        } else { alert('Please enter a valid email'); }
         
     });
 });
