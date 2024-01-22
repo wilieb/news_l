@@ -19,24 +19,24 @@ body{
 
 .container{
     width: 46%!important;
-    height: 63vh;
+    height: 62vh;
     background-color: #F7FAFC;
     border: none;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
 }
 
 #col1{
-    margin-left: 1.5rem;
+    margin-left: .5rem;
     width: fit-content!important;
 }
 
 h1{
-    font-size: 3vw!important;
+    font-size: 2.75vw!important;
     color: #282a44!important;
 }
 
 p, li{
-    font-size: 1vw!important;
+    font-size: 0.8vw!important;
     font-weight: 600;
     color: #282a44!important;
 }
