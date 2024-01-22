@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/assets/fonts/Roboto-Black.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #353340!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 54%!important;
+    height: 70vh;
+    background-color: #F7FAFC;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+#col1{
+    margin-left: 1.5rem;
+    width: fit-content!important;
+}
+
+h1{
+    font-size: 3vw!important;
+}
+
+p, li{
+    font-size: 1vw!important;
+    font-weight: 600;
+}
+
+ul{
+    list-style-type: none;
+    list-style-image: url("/assets/icon-list.svg")!important;
+    padding-left: 1.65em;
+}
+
+input{
+    padding: 0.35em;
+    border-radius: 0.35em;
+    border: 1px #353340 solid;
+}
+
+input[type=email]:active, input[type=email]:focus{
+    border: 1px #353340 solid!important;
+}
+
+input[type=email]::placeholder{
+    vertical-align: middle;
+    color: #353340;
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+input[type=button]{
+    color: #F7FAFC;
+    background: #353340;
+    border: none;
+    font-size: 0.9vw;
+    font-weight: 500;
+    padding: 0.75em 0.35em;
+}
+
+#svg{
+    margin-right: 0!important;
+}
