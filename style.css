@@ -10,7 +10,7 @@
 }
 
 body{
-    background: #353340!important;
+    background: #282a44!important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +32,13 @@ body{
 
 h1{
     font-size: 3vw!important;
+    color: #282a44!important;
 }
 
 p, li{
     font-size: 1vw!important;
     font-weight: 600;
+    color: #282a44!important;
 }
 
 ul{
@@ -48,27 +50,31 @@ ul{
 input{
     padding: 0.35em;
     border-radius: 0.35em;
-    border: 1px #353340 solid;
+    border: 1px #282a44 solid;
 }
 
 input[type=email]:active, input[type=email]:focus{
-    border: 1px #353340 solid!important;
+    border: 1px #282a44 solid!important;
 }
 
 input[type=email]::placeholder{
     vertical-align: middle;
-    color: #353340;
+    color: #282a44;
     font-size: 0.9vw;
     font-weight: 500;
 }
 
 input[type=button]{
     color: #F7FAFC;
-    background: #353340;
+    background: #282a44;
     border: none;
     font-size: 0.9vw;
     font-weight: 500;
     padding: 0.75em 0.35em;
+}
+
+input[type=button]:hover, input[type=button]:active, input[type=button]:focus{
+    background: linear-gradient(97deg, #f8527a 0%, #f96b3a 100%);
 }
 
 #svg{
