@@ -17,7 +17,7 @@ body{
     height: 100vh;
 }
 
-.container{
+.cont{
     width: 46%!important;
     height: 62vh;
     background-color: #F7FAFC;
@@ -47,7 +47,7 @@ ul{
     padding-left: 1.65em;
 }
 
-input{
+input[type=email]{
     padding: 0.35em;
     border-radius: 0.35em;
     border: 1px #282a44 solid;
@@ -71,6 +71,7 @@ input[type=button]{
     font-size: 0.9vw;
     font-weight: 500;
     padding: 0.75em 0.35em;
+    border-radius: 0.35em;
 }
 
 input[type=button]:hover, input[type=button]:active, input[type=button]:focus{
@@ -79,4 +80,23 @@ input[type=button]:hover, input[type=button]:active, input[type=button]:focus{
 
 #svg{
     margin-right: 0!important;
+}
+
+/* Success Page */
+#success{
+    width: 23%!important;
+    height: 51vh;
+    background-color: #F7FAFC;
+    border: none;
+    border-radius: 1rem;
+    padding: 2em;
+}
+
+#btn-scs input[type=button]{
+    padding: 0.75em 1em!important;
+    width: 100%;
+}
+
+#col-scs h1{
+    line-height: 1em;
 }
