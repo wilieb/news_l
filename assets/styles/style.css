@@ -1,0 +1,132 @@
+body{
+    background-color: #282a44!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+main{
+    background-color: #F7FAFC;
+    width: 50%;
+    height: 64vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    border-radius: 1em;
+}
+
+h1{
+    font-family: 'Roboto-Bold';
+    color: #282a44!important;
+    font-size: 2.75vw!important;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Robot-Regular';
+    color: #282a44;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0!important;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: 2em;
+}
+
+li p{
+    display: block;
+    padding-top: 0.5em;
+}
+
+#err{
+    display: none;
+    color: #f8527a;
+}
+
+.icon-list{
+    margin-right: 0.5em;
+    position: relative;
+    right: 0.3125em;
+}
+
+.inform{
+    padding: 2em 2em 2em 4em;
+    width: 55%;
+}
+
+.info{
+    height: 60%;
+}
+
+.form-section, form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section{
+    margin-top: 0;
+}
+
+#myForm{
+    gap: 1em;
+}
+
+input[type=email]{
+    padding: 0.35em;
+    border-radius: 0.35em;
+    border: 1px #282a44 solid;
+}
+
+input[type=email]:active, input[type=email]:focus{
+    border: 1px #282a44 solid!important;
+}
+
+input[type=email]::placeholder{
+    vertical-align: middle;
+    color: #282a44;
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+input[type=submit]{
+    color: #F7FAFC;
+    background: #282a44;
+    border: none;
+    font-size: 0.9vw;
+    font-weight: 500;
+    padding: 0.75em 0.35em;
+    border-radius: 0.35em;
+}
+
+input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus{
+    background: linear-gradient(97deg, #f8527a 0%, #f96b3a 100%);
+}
+
+#img-desk{
+    display: flex;
+    width: 38%;
+    height: auto;
+    margin-right: 0.8em;
+}
+
+#img-mobi{
+    display: none;
+}
